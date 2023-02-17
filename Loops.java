@@ -121,7 +121,7 @@ public class Loops {
     n - 32145
     sum: 15
 
-9. Take one number from user and print reveve number.
+9. Take one number from user and print revevese number.
 
      n- 5864
      rev: 4685
@@ -129,7 +129,29 @@ public class Loops {
 10. Check number is palindrom or not.
 
     n - 1221 , 5236325 , 888 , 9669 - palindrom
-    n - 2563 -not palindrom
+    n - 2563 - not palindrom
+
+11.Find factorial of user given number.
+
+    n - 5
+    fact- 5*4*3*2*1 = 120
+
+12. find factors of user given number.
+
+ n - 6 - 1 2 3 6
+ n - 15 - 1 3 5 15
+
+
+ 13. check number is perfect number or not ?
+
+ n - 6 - 1 2 3 6 ( 1 + 2 + 3 = 6 ) 6=6 -> perfect
+ n - 15 - 1 3 5 15 ( 1+3+5 = 9 ) 9 !=6 -> not perfect
+
+ 14. check the number is prime or not .
+
+ prime - 2 3 5 7 11 13 17 ...
+
+ 
 
 
 
