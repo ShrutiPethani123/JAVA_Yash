@@ -19,14 +19,29 @@ public class NestedLoop {
         // }
         System.out.println();
         
-       int k;
-        for(int j=1;j<=4;j++)
+    //    int k;
+    //     for(int j=1;j<=4;j++)
+    //     {
+    //         k=j;
+    //         for(int i=1;i<5;i++)
+    //         {
+    //             System.out.print(k + " ");
+    //             k+=j;
+    //         }
+    //         System.out.println();
+    //     }
+
+        for(int i=1;i<5;i++)
         {
-            k=j;
-            for(int i=1;i<5;i++)
+            for(int j=1;j<5;j++)
             {
-                System.out.print(k + " ");
-                k+=j;
+                if(j==1 || j==4 || i==1 || i==4)
+                {
+                    System.out.print(" * ");
+                }else{
+                    System.out.print("   ");
+                }
+
             }
             System.out.println();
         }
@@ -69,6 +84,35 @@ public class NestedLoop {
 3 6 9 12
 4 8 12 16
 
+6.
+
+*
+**
+***
+****
+*****
+
+7.
+
+1 
+2 3
+4 5 6
+7 8 9 10
+
+
+8.
+n=4
+
+* * * *
+*     *
+*     *
+* * * *
+
+
+* * * * *
+*       *
+*       *
+* * * * *
 
  */
 
